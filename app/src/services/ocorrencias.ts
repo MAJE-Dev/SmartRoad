@@ -33,7 +33,7 @@ import { getJson } from "./api";
 // A URL pode ser trocada pela variável EXPO_PUBLIC_API_URL (veja .env.example).
 export const API_URL =
   process.env.EXPO_PUBLIC_API_URL ||
-  "https://raw.githubusercontent.com/MAJE-Dev/CitizenTech/main/app/mock/ocorrencias.json";
+  "https://raw.githubusercontent.com/MAJE-Dev/SmartRoad/main/app/mock/ocorrencias.json";
 
 export interface ListaOcorrencias {
   itens: Ocorrencia[];

@@ -8,7 +8,7 @@ import { Colors, Sizes } from "@/theme";
 export const MAPA_TILES =
   process.env.EXPO_PUBLIC_MAPA_TILES || "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
 /** Identifica o app para o servidor do mapa (a política do OpenStreetMap pede isso). */
-export const MAPA_ORIGEM = "https://github.com/MAJE-Dev/CitizenTech";
+export const MAPA_ORIGEM = "https://github.com/MAJE-Dev/SmartRoad";
 const LEAFLET = "https://unpkg.com/leaflet@1.9.4/dist";
 const ESPERA_MS = 10000; // sem nenhuma imagem do mapa nesse tempo, o app volta ao mapa ilustrativo
 

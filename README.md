@@ -59,7 +59,7 @@ https://www.youtube.com
 | **Problema, em uma frase** | Buracos, bueiros quebrados e outros problemas da rua demoram a ser resolvidos, e o morador não tem um jeito simples de avisar nem de saber em que pé está o reparo. |
 | **Como funciona** | O cidadão vê as ocorrências num mapa e numa lista, registra um problema em menos de 1 minuto (com localização do celular e foto, se quiser) e acompanha o andamento e os comentários. |
 | **O que cada parte faz** | **App mobile (este repositório):** interface do cidadão para consultar, registrar e acompanhar ocorrências. **Demais disciplinas:** _(preencher com as outras partes da solução)_ |
-| **Link do repositório** | https://github.com/MAJE-Dev/CitizenTech |
+| **Link do repositório** | https://github.com/MAJE-Dev/SmartRoad |
 | **Indicador de impacto** | Tempo médio entre o registro e a conclusão do reparo, e número de ocorrências resolvidas por bairro. _(confirmar)_ |
 | **ODS conectados** | ODS 11 (Cidades e comunidades sustentáveis) e ODS 9 (Indústria, inovação e infraestrutura). Veja a seção [ODS e metas](#ods-e-metas). |
 
