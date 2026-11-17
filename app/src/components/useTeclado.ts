@@ -1,15 +1,18 @@
 // Faz a tela subir quando o teclado abre, deixando o campo em que a pessoa escreve logo acima dele.
 // Uso: const t = useTeclado(); <ScrollView ref={t.ref} onScroll={t.onScroll} scrollEventThrottle={16}
 //   contentContainerStyle={[..., { paddingBottom: t.espaco }]}> ... <TextInput onFocus={t.revelar} />
+// Se há algo abaixo do campo que também precisa ficar visível (ex.: o botão de enviar), ponha
+// ref={t.fim} (e collapsable={false}) no View que envolve esse trecho: ele passa a ser o que sobe.
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { ComponentRef } from "react";
-import { Keyboard, Platform, ScrollView, TextInput } from "react-native";
+import { Keyboard, Platform, ScrollView, TextInput, View } from "react-native";
 import type { NativeScrollEvent, NativeSyntheticEvent } from "react-native";
 
 const FOLGA = 24; // espaço entre o campo e o teclado
 
 export function useTeclado() {
   const ref = useRef<ComponentRef<typeof ScrollView>>(null);
+  const fim = useRef<ComponentRef<typeof View>>(null);
   const deslocamento = useRef(0);
   const topoTeclado = useRef<number | null>(null);
   const [espaco, setEspaco] = useState(0);
@@ -17,10 +20,11 @@ export function useTeclado() {
   const revelar = useCallback(() => {
     // espera o teclado e o espaço extra aparecerem antes de medir
     setTimeout(() => {
-      const campo = TextInput.State.currentlyFocusedInput?.();
+      // Prefere o trecho marcado em `fim` (campo + botão); sem ele, usa o próprio campo.
+      const alvo = fim.current ?? TextInput.State.currentlyFocusedInput?.();
       const topo = topoTeclado.current;
-      if (!campo || topo === null) return;
-      campo.measureInWindow((_x, y, _w, altura) => {
+      if (!alvo || topo === null) return;
+      alvo.measureInWindow((_x, y, _w, altura) => {
         const sobra = y + altura + FOLGA - topo;
         if (sobra > 0) ref.current?.scrollTo({ y: deslocamento.current + sobra, animated: true });
       });
@@ -48,5 +52,5 @@ export function useTeclado() {
     deslocamento.current = e.nativeEvent.contentOffset.y;
   }, []);
 
-  return { ref, onScroll, espaco, revelar };
+  return { ref, fim, onScroll, espaco, revelar };
 }
