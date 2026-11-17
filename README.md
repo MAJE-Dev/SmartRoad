@@ -14,6 +14,10 @@
 | Otávio Santos de Lima Ferrão | RM556452 |
 | Vitor Rivas Cardoso | RM556404 |
 
+## Video Explicativo
+
+https://www.youtube.com
+
 ## Sobre o projeto
 
 **SmartRoad** é um app mobile para o cidadão **registrar e acompanhar problemas na rua**: buracos, bueiros quebrados, falta de iluminação e calçadas danificadas. Feito com React Native (Expo + TypeScript + Expo Router) na **Global Solution 2026.2 — Mobile Development & IoT**.
