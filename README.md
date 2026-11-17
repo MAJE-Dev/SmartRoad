@@ -16,7 +16,7 @@
 
 ## Video Explicativo
 
-https://www.youtube.com
+https://youtu.be/WimJufk4uxU
 
 ## Sobre o projeto
 
