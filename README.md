@@ -57,9 +57,22 @@
 | **O que cada parte faz** | **App mobile (este repositório):** interface do cidadão para consultar, registrar e acompanhar ocorrências. **Demais disciplinas:** _(preencher com as outras partes da solução)_ |
 | **Link do repositório** | https://github.com/MAJE-Dev/CitizenTech |
 | **Indicador de impacto** | Tempo médio entre o registro e a conclusão do reparo, e número de ocorrências resolvidas por bairro. _(confirmar)_ |
-| **ODS conectados** | ODS 11 (Cidades e comunidades sustentáveis) e ODS 9 (Indústria, inovação e infraestrutura). _(confirmar)_ |
+| **ODS conectados** | ODS 11 (Cidades e comunidades sustentáveis) e ODS 9 (Indústria, inovação e infraestrutura). Veja a seção [ODS e metas](#ods-e-metas). |
 
 **Jornada principal:** Início (ver ocorrências) → Registrar (avisar um problema) → Histórico (ver o que registrei) → Detalhe (andamento e comentários).
+
+## ODS e metas
+
+O SmartRoad se conecta a dois Objetivos de Desenvolvimento Sustentável da ONU e contribui para metas específicas de cada um.
+
+| ODS | Meta | Como o SmartRoad contribui |
+| --- | --- | --- |
+| **ODS 11** — Cidades e comunidades sustentáveis | **11.2** Sistemas de transporte seguros e acessíveis | O cidadão avisa de buracos e bueiros quebrados, problemas que causam acidentes com carros, motos e bicicletas. Cada aviso tem tipo, gravidade e local, o que ajuda a priorizar os reparos mais urgentes. |
+| **ODS 11** | **11.7** Espaços públicos seguros, inclusivos e acessíveis | Calçadas danificadas e falta de iluminação são registradas e acompanhadas até a conclusão. O app também é acessível (contraste alto, áreas de toque de 48 px, rótulos para leitor de tela), para incluir pessoas com baixa visão. |
+| **ODS 11** | **11.3** Planejamento e gestão participativos das cidades | O morador deixa de ser só espectador: registra o problema em menos de 1 minuto, vê as ocorrências no mapa, acompanha o andamento e comenta. |
+| **ODS 9** — Indústria, inovação e infraestrutura | **9.1** Infraestrutura de qualidade, confiável e resiliente | Os registros com localização formam um mapa dos pontos que precisam de manutenção da via. O indicador de impacto (tempo entre o registro e o reparo) mostra se a infraestrutura está sendo cuidada. |
+
+> Neste protótipo os dados da cidade são fictícios; a contribuição descrita é a que o app entrega quando usado com dados reais.
 
 ## Como rodar o app
 
