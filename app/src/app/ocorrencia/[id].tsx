@@ -134,28 +134,30 @@ export default function Detalhe() {
                     <Text style={s.data}>{c.data}</Text>
                   </View>
                 ))}
-              <TextInput
-                value={texto}
-                onChangeText={(t) => {
-                  setTexto(t);
-                  setErroEnvio("");
-                }}
-                placeholder="Escreva aqui..."
-                placeholderTextColor={Colors.textoSuave}
-                accessibilityLabel="Escreva um comentário"
-                onFocus={teclado.revelar}
-                style={[s.campo, !!erroEnvio && { borderColor: Colors.grave }]}
-              />
-              {!!erroEnvio && (
-                <Text accessibilityRole="alert" accessibilityLiveRegion="assertive" style={s.erro}>
-                  {erroEnvio}
-                </Text>
-              )}
-              <Botao
-                titulo={enviando ? "Enviando..." : "Enviar comentário"}
-                onPress={enviar}
-                desativado={!texto.trim() || enviando}
-              />
+              <View ref={teclado.fim} collapsable={false} style={{ gap: Spacing.sm }}>
+                <TextInput
+                  value={texto}
+                  onChangeText={(t) => {
+                    setTexto(t);
+                    setErroEnvio("");
+                  }}
+                  placeholder="Escreva aqui..."
+                  placeholderTextColor={Colors.textoSuave}
+                  accessibilityLabel="Escreva um comentário"
+                  onFocus={teclado.revelar}
+                  style={[s.campo, !!erroEnvio && { borderColor: Colors.grave }]}
+                />
+                {!!erroEnvio && (
+                  <Text accessibilityRole="alert" accessibilityLiveRegion="assertive" style={s.erro}>
+                    {erroEnvio}
+                  </Text>
+                )}
+                <Botao
+                  titulo={enviando ? "Enviando..." : "Enviar comentário"}
+                  onPress={enviar}
+                  desativado={!texto.trim() || enviando}
+                />
+              </View>
             </Cartao>
           </>
         )}
