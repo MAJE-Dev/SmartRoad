@@ -4,7 +4,7 @@
   <img src="app/assets/images/logo-marca.png" alt="Logo do SmartRoad: pino de mapa com uma rua dentro" width="120" />
 </p>
 
-## Video Explicativo
+## Video
 
 https://youtu.be/WimJufk4uxU
 
