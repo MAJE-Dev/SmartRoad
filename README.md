@@ -4,6 +4,10 @@
   <img src="app/assets/images/logo-marca.png" alt="Logo do SmartRoad: pino de mapa com uma rua dentro" width="120" />
 </p>
 
+## Video Explicativo
+
+https://youtu.be/WimJufk4uxU
+
 ## Integrantes
 
 | Nome | RM |
@@ -13,10 +17,6 @@
 | Kaio Drago Lima Souza | RM556095 |
 | Otávio Santos de Lima Ferrão | RM556452 |
 | Vitor Rivas Cardoso | RM556404 |
-
-## Video Explicativo
-
-https://youtu.be/WimJufk4uxU
 
 ## Sobre o projeto
 
