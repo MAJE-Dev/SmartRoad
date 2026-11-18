@@ -1,8 +1,6 @@
 # Prompts de IA usados no projeto
 
-A IA (Claude Code) foi usada como copiloto para aprender e revisar, como permite o briefing da GS. O grupo revisou o resultado e sabe explicar cada parte.
-
-> **Grupo:** complete esta lista com os prompts que os outros integrantes usaram.
+A IA (Claude Code) foi usada como copiloto para aprender e revisar, como permite o briefing da GS. Conforme o briefing da GS, os prompts ficam registrados aqui e o grupo sabe explicar cada linha.
 
 | # | Prompt (resumo) | O que foi feito |
 | --- | --- | --- |

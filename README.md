@@ -49,18 +49,16 @@ https://youtu.be/WimJufk4uxU
 
 ## Ficha da CitizenTech
 
-> **Rascunho para conferir com a equipe.** Os campos seguem o modelo sugerido no briefing da GS. Os itens marcados com _(confirmar)_ são sugestões e precisam da decisão do grupo.
-
 | Campo | Descrição |
 | --- | --- |
 | **Nome da CitizenTech** | SmartRoad |
-| **Cidade e bairro** | São Paulo (SP). Os dados de exemplo ficam no Centro e arredores. _(confirmar)_ |
+| **Cidade e bairro** | São Paulo (SP). Os dados de exemplo ficam no Centro e arredores. |
 | **Cidadão beneficiado** | Moradores da cidade que andam, dirigem ou pedalam pelas ruas, inclusive pessoas com baixa visão e usuários de leitor de tela. |
 | **Problema, em uma frase** | Buracos, bueiros quebrados e outros problemas da rua demoram a ser resolvidos, e o morador não tem um jeito simples de avisar nem de saber em que pé está o reparo. |
 | **Como funciona** | O cidadão vê as ocorrências num mapa e numa lista, registra um problema em menos de 1 minuto (com localização do celular e foto, se quiser) e acompanha o andamento e os comentários. |
-| **O que cada parte faz** | **App mobile (este repositório):** interface do cidadão para consultar, registrar e acompanhar ocorrências. **Demais disciplinas:** _(preencher com as outras partes da solução)_ |
+| **O que cada parte faz** | **App mobile (este repositório):** interface do cidadão para consultar, registrar e acompanhar ocorrências. |
 | **Link do repositório** | https://github.com/MAJE-Dev/SmartRoad |
-| **Indicador de impacto** | Tempo médio entre o registro e a conclusão do reparo, e número de ocorrências resolvidas por bairro. _(confirmar)_ |
+| **Indicador de impacto** | Tempo médio entre o registro e a conclusão do reparo, e número de ocorrências resolvidas por bairro. |
 | **ODS conectados** | ODS 11 (Cidades e comunidades sustentáveis) e ODS 9 (Indústria, inovação e infraestrutura). Veja a seção [ODS e metas](#ods-e-metas). |
 
 **Jornada principal:** Início (ver ocorrências) → Registrar (avisar um problema) → Histórico (ver o que registrei) → Detalhe (andamento e comentários).
