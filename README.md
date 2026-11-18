@@ -182,10 +182,6 @@ app/
 - O mapa nunca é o único caminho: a lista logo abaixo traz as mesmas ocorrências.
 - Localização e foto são opcionais; quando a permissão é negada, o app explica o que fazer.
 
-## Vídeo (até 3 minutos)
-
-> **PREENCHER:** link do YouTube (não listado) mostrando o app rodando, a jornada completa e os dados sendo salvos e recuperados.
-
 ## Gerar uma nova versão do APK
 
 1. Confira a versão em `app/app.json` (`version` e `android.versionCode`) e em `app/package.json`.
